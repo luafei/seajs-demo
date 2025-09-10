@@ -3,16 +3,12 @@
  */
 define(function (require, exports, module) {
     var init= function() {
-        var textContent = [
+        var textContent_test = [
             'yes it works',
-            'seajs demo',
-            'it is a lucky day',
-            'wish this help you',
-            'thank you for reading',
             'dev 分支新增内容1'
         ];
-        var index = Math.floor(Math.random()*textContent.length);
-        return textContent[index];
+        var index = Math.floor(Math.random()*textContent_test.length);
+        return textContent_test[index];
     }
     module.exports = {
         init:init
