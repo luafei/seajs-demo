@@ -8,7 +8,8 @@ define(function (require, exports, module) {
             'seajs demo',
             'it is a lucky day',
             'wish this help you',
-            'thank you for reading'
+            'thank you for reading',
+            'dev 分支新增内容1'
         ];
         var index = Math.floor(Math.random()*textContent.length);
         return textContent[index];
