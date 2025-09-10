@@ -5,7 +5,7 @@ define(function (require, exports, module) {
     var init= function() {
         var textContent_test = [
             'yes it works',
-            'dev 分支新增内容1'
+            'dev 分支新增内容122222'
         ];
         var index = Math.floor(Math.random()*textContent_test.length);
         return textContent_test[index];
